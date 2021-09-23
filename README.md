@@ -19,6 +19,6 @@ python manage.py import_data <File_Name.csv>
 
  * /LOJA/LISTAR/
  * /LOJA/ADICIONAR/
- * /LOJA/EDITAR/<PK>/
- * /LOJA/EXCLUIR/<PK>/
+ * /LOJA/EDITAR/(PK)/
+ * /LOJA/EXCLUIR/(PK)/
  * /LOJA/<PK>/
