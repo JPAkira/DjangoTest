@@ -17,12 +17,8 @@ python manage.py import_data <File_Name.csv>
 ```
 6. API'S URLS:
 
-```html
-<ol>
- <li>/LOJA/LISTAR/</li>
- <li>/LOJA/ADICIONAR/</li>
- <li>/LOJA/EDITAR/<PK>/</li>
- <li>/LOJA/EXCLUIR/<PK>/</li>
- <li>/LOJA/<PK>/</li>
-</ol>
-```
+ * /LOJA/LISTAR/
+ * /LOJA/ADICIONAR/
+ * /LOJA/EDITAR/<PK>/
+ * /LOJA/EXCLUIR/<PK>/
+ * /LOJA/<PK>/
