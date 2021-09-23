@@ -21,4 +21,4 @@ python manage.py import_data <File_Name.csv>
  * /LOJA/ADICIONAR/
  * /LOJA/EDITAR/(PK)/
  * /LOJA/EXCLUIR/(PK)/
- * /LOJA/<PK>/
+ * /LOJA/(PK)/
