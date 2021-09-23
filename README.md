@@ -2,7 +2,19 @@
  Python/Django/Postgresql Teste
  
 1. Configure database in settings
-2. Run migrate to create db
+```sh
+DATABASES = {
+   'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': '123456',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
+    }
+}
+```
+3. Run migrate to create db
 ```sh
 python manage.py migrate
 ```
